@@ -1,9 +1,17 @@
 ## 1. Project Overview
-This project automates the creation of a custom Amazon Machine Image (AMI) on AWS. It provisions an Ubuntu server, installs an Apache web server with a custom "Nandini" landing page, and "bakes" that configuration into a reusable image for consistent deployments.
+This project automates the creation of a custom Amazon Machine Image (AMI) on AWS. It provisions an Ubuntu server, installs an Apache web server with a custom landing page, and "bakes" that configuration into a reusable image for consistent deployments.
 ## 2. Architecture
 ![Architecture Diagram](https://github.com/KmNandini12/AWS-Terraform-AMI-baking/blob/4988f5dc49ac43a5029b736388d6b3705be94af0/screenshorts/Architecture%20TF.png)
 
-## 3. Project Structure
+## 3. Key Features
+1. **Infrastructure as Code:** Fully defined using Terraform HCL.
+
+2. **Automated Configuration:** Uses EC2 user_data to bootstrap web services.
+
+3. **Image Baking:** Implements the aws_ami_from_instance resource to create custom Golden Images.
+
+4. **Security Baseline:** Includes an automated Security Group (EC2_SG) configured for HTTP traffic.
+## 4. Project Structure
 ```text
 project/
 ├── provider.tf
