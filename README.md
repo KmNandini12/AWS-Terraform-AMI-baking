@@ -34,3 +34,7 @@ project/
   * The file was incorrectly saved as `terraform.tfvars.txt` due to hidden Windows file extensions. 
   * After enabling file extensions in Windows Explorer and removing the `.txt` suffix, Terraform successfully auto-loaded the credentials.
 ```
+```
+## Author
+**Kumari Nandini**
+[LinkedIn Profile](https://www.linkedin.com/in/kumari-nandini/) | [GitHub Profile](https://github.com/KmNandini12)
