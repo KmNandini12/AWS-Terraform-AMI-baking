@@ -1,6 +1,7 @@
 ## 1. Project Overview
 This project automates the creation of a custom Amazon Machine Image (AMI) on AWS. It provisions an Ubuntu server, installs an Apache web server with a custom "Nandini" landing page, and "bakes" that configuration into a reusable image for consistent deployments.
-### 2. Architecture
+## 2. Architecture
+![Architecture Diagram](https://github.com/KmNandini12/AWS-Terraform-AMI-baking/blob/4988f5dc49ac43a5029b736388d6b3705be94af0/screenshorts/Architecture%20TF.png)
 
 ## 3. Project Structure
 ```text
